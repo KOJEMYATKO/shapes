@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\Shapes\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\Admin\source\repos\Shapes\Shapes\bin\Debug\Shapes.exe
+C:\Users\Admin\source\repos\Shapes\Shapes\bin\Debug\Shapes.pdb
+C:\Users\Admin\source\repos\Shapes\Shapes\bin\Debug\shapeslib.dll
+C:\Users\Admin\source\repos\Shapes\Shapes\bin\Debug\shapeslib.pdb
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.cache
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.lref
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.g.resources
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.Properties.Resources.resources
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.exe
+C:\Users\Admin\source\repos\Shapes\Shapes\obj\Debug\Shapes.pdb

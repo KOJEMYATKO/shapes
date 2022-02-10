@@ -1,0 +1,46 @@
+﻿<Window x:Class="Shapes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shapes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="cat.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Width="250" >
+            <TextBlock Margin="5" FontSize="20">
+                Площадь треугольника
+            </TextBlock >
+            <StackPanel>
+                <CheckBox Name="angleorsideCB" Click="angleorsideCB_Click">по двум сторонам и углу</CheckBox>
+                <TextBox Margin="5" Name="sideAtxb" GotFocus="sideAtxb_GotFocus" LostFocus="sideAtxb_LostFocus" />
+            </StackPanel>
+            <TextBox Margin="5" Name="sideBtxb" GotFocus="sideBtxb_GotFocus" LostFocus="sideBtxb_LostFocus"/>
+            <TextBox Margin="5" Name="sideCtxb" GotFocus="sideCtxb_GotFocus" LostFocus="sideCtxb_LostFocus"/>
+            <Button Margin="5" Click="Button_Click">Найти</Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Margin="0 -43 0 0"  Width="250">
+            <TextBlock Margin="5" FontSize="20">
+                Площадь прямоугольника
+            </TextBlock >
+            <TextBox Margin="5" Name="RectangleA" GotFocus="RectangleA_GotFocus" LostFocus="RectangleA_LostFocus"/>
+            <TextBox Margin="5" Name="RectangleB"  GotFocus="RectangleB_GotFocus" LostFocus="RectangleB_LostFocus"/>
+            <Button Margin="5" Click="Button_Click_1" >Найти</Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Margin="0 -68 0 0"  Width="250">
+            <TextBlock Margin="5" FontSize="20" HorizontalAlignment="Center">
+                Площадь круга
+            </TextBlock >
+            <TextBox Margin="5" Name="radius" GotFocus="radius_GotFocus" LostFocus="radius_LostFocus"/>
+            <Button Margin="5" Click="Button_Click_2" >Найти</Button>
+        </StackPanel>
+    </Grid>
+</Window>
